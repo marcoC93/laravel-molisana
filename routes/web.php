@@ -17,7 +17,11 @@ Route::get('/', function () {
     return view('home');
 });
 Route::get('/prodotti', function () {
-    return view('prodotti');
+    $data = [
+        'formati' => config('pasta')
+    ];
+    
+    return view('prodotti',$data);
 })->name('pagina-prodotti');
 Route::get('/contatti', function () {
     return view('contatti');
