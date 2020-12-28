@@ -7,14 +7,10 @@
         <title></title>
     </head>
     <body>
-        <header>
-            @yield('header')
-        </header>
+        @include('partials.header')
 
         @yield('main')
 
-        <footer>
-            @yield('footer')
-        </footer>
+        @include('partials.footer')
     </body>
 </html>
