@@ -1,7 +1,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <img src="{{asset('images/marchio-sito-test.png')}}" alt="">
                 <address class="">
                     Ragione sociale: La Molisana S.P.A
@@ -20,7 +20,7 @@
                 </address>
 
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h3>pastificio</h3>
                 <ul>
                     <li>il pastificio</li>
@@ -43,7 +43,7 @@
                     <li>le semole</li>
                 </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h3>collezione da chef</h3>
                 <ul>
                     <li>collezioni da chef</li>
