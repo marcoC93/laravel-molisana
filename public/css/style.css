@@ -1,5 +1,11 @@
-body {
-  background-color: black;
-  color: white;
+footer {
+  background-image: url("/images/footer-montagne-bottom.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+body .col-md-4 .card img {
+  margin-bottom: 10px;
+  width: 100%;
 }
 
