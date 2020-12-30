@@ -1,21 +1,31 @@
+header #header-container {
+  text-align: center;
+  width: 250px;
+  margin: 0 auto;
+}
+
+header img {
+  text-align: center;
+}
+
 header ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0;
 }
 
 header ul li {
   padding: 10px;
   list-style-type: none;
+  transition: 1s;
 }
 
-footer {
-  background-image: url("/images/footer-montagne-bottom.jpg");
-  background-repeat: no-repeat;
-  background-position: bottom;
+header ul li:hover {
+  background-color: #B7DAE5;
 }
 
 body .col-md-4 .card {
-  border: 0;
+  position: relative;
 }
 
 body .col-md-4 .card img {
@@ -24,6 +34,24 @@ body .col-md-4 .card img {
 }
 
 body .col-md-4 .card .overlay {
-  background-color: white;
+  display: none;
+}
+
+body .col-md-4 .card:hover .overlay {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 11;
+  border: 0;
+}
+
+footer {
+  background-image: url("/images/footer-montagne-bottom.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 

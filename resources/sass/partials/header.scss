@@ -1,11 +1,23 @@
 header {
-
-      ul {
-        display: flex;
-        justify-content: center;
-        li {
-            padding: 10px;
-            list-style-type: none;
+        #header-container{
+            text-align: center;
+            width: 250px;
+            margin: 0 auto;
         }
+        img {
+            text-align: center;
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+            li {
+                padding: 10px;
+                list-style-type: none;
+                transition: 1s;
+                &:hover {
+                    background-color: $standard-color;
+                }
+            }
     }
 }
